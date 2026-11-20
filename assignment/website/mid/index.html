@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mid.css">
+</head>
+<body>
+ </head>
+<body>
+
+  <form action="#" method="post">
+    <h2>Registration Form</h2>
+
+    <!-- Username -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <!-- Gender -->
+    <label>Gender:</label>
+    <div class="gender">
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+      <label><input type="radio" name="gender" value="other"> Other</label>
+    </div>
+
+    <!-- Interests -->
+    <label>Interests:</label>
+    <div class="interests">
+      <label><input type="checkbox" name="interests" value="sports"> Sports</label>
+      <label><input type="checkbox" name="interests" value="music"> Music</label>
+      <label><input type="checkbox" name="interests" value="reading"> Reading</label>
+      <label><input type="checkbox" name="interests" value="traveling"> Traveling</label>
+    </div>
+
+    <!-- Country -->
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">-- Select Country --</option>
+      <option value="usa">United States</option>
+      <option value="india">India</option>
+      <option value="canada">Canada</option>
+      <option value="uk">United Kingdom</option>
+      <option value="australia">Australia</option>
+    </select>
+
+    <!-- Submit Button -->
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>

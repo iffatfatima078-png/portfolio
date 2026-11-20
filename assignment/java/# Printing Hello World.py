@@ -1,0 +1,26 @@
+# Printing Hello World
+print("Hello, World!")
+
+# Different Data Types
+print("This is a string")
+print(25)        # Integer
+print(3.14)      # Float
+print(True)      # Boolean
+
+# Variables
+name = "Ali"
+age = 20
+height = 5.8
+is_student = True
+
+# Printing variables
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Is Student:", is_student)
+
+# Printing variable types
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_student))

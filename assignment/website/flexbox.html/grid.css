@@ -1,0 +1,15 @@
+body{
+    display: grid;
+    height: 200px;
+    grid-template-areas: "head head"
+                           "nav main"
+                           "footer footer";
+}
+header{
+    grid-area:head;
+    background-color: aqua;
+}
+.nav-bar{
+    grid-nav: nav;
+    background-color: beige;
+}

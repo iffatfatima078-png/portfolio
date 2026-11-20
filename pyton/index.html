@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header / Navbar -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">MyBusiness</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main>
+
+<!-- Home Section -->
+<section id="home" class="pt-5">
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://via.placeholder.com/1600x600" class="d-block w-100" alt="">
+      <div class="carousel-caption">
+        <h2>Welcome to Our Business</h2>
+        <p>We provide professional solutions</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://via.placeholder.com/1600x600" class="d-block w-100" alt="">
+      <div class="carousel-caption">
+        <h2>Creative Ideas</h2>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="container py-5">
+<h2 class="text-center mb-4">Our Services</h2>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card service-card">
+      <div class="card-body">
+        <h5 class="card-title">Web Development</h5>
+        <p class="card-text">Modern and responsive websites.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card service-card">
+      <div class="card-body">
+        <h5 class="card-title">Design</h5>
+        <p class="card-text">Creative UI/UX designs.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card service-card">
+      <div class="card-body">
+        <h5 class="card-title">Marketing</h5>
+        <p class="card-text">Digital marketing solutions.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="bg-light py-5">
+<div class="container">
+<h2 class="text-center mb-4">Portfolio</h2>
+<button class="btn btn-primary mb-3" onclick="filterProjects()">Filter Projects</button>
+<div class="row" id="portfolioItems">
+  <div class="col-md-4">
+    <div class="card portfolio-card">
+      <div class="card-body">Project A</div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card portfolio-card">
+      <div class="card-body">Project B</div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container py-5">
+<h2 class="text-center mb-4">Contact Us</h2>
+<form onsubmit="return validateForm()">
+  <div class="mb-3">
+    <input type="text" id="name" class="form-control" placeholder="Your Name">
+  </div>
+  <div class="mb-3">
+    <input type="email" id="email" class="form-control" placeholder="Your Email">
+  </div>
+  <div class="mb-3">
+    <textarea id="message" class="form-control" placeholder="Your Message"></textarea>
+  </div>
+  <button type="submit" class="btn btn-success">Send Message</button>
+</form>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+<p>© 2025 MyBusiness | All Rights Reserved</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>

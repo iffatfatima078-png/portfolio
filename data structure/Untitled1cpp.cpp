@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+	
+	cout<<"i am learning c++ language program ";
+	
+	return 0;
+}

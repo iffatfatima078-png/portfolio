@@ -1,0 +1,50 @@
+.row{
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    background-color: aqua;
+    margin: 5px;
+    padding: 0px;
+    border: 0px;
+}
+.row .label {
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row .container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.dish pasta {
+    background-color: blue;
+    margin: 20px;
+    padding: 30px;
+}
+.rows{
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    background-color: aqua;
+    padding: 0px;
+    margin:  5px ;
+    border: 0px;
+}
+.rows .table{
+   flex: 0 0 auto;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rows .main{
+     flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.pizza{
+    background-color: red;
+}
+.pasta{
+    background-color: blueviolet;
+}
+.burrito{
+    background-color: blue;
+}
